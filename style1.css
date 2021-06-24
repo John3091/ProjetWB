@@ -1,0 +1,22 @@
+.card:hover{
+    box-shadow: 8px 8px 8px;
+    transform:scale(1.1);
+}
+
+span {
+  font-size: 20px;
+}
+
+
+.fst-italic {
+  font-style: italic;
+}
+
+
+
+.sectionTitle {
+  border: 1px solid grey;
+  background-color:black;
+  color: white;
+  text-align: center;
+};
