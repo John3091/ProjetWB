@@ -15,122 +15,13 @@
 
 
   <!--HEADER-->
-  <div class="bg-dark">
-    <div class="container " style="height: 75px;">
-      <div class="row align-items-center h-100">
-        <div class="col-5"><span class="text-light bg-dark">L'avenir entre vos mains</span></div>
-        <div class="col-3"><span class="text-light bg-dark">Contact 058.5758.770</span></div>
-        <div class="col-4"><span class="text-light bg-dark">Dimanche au Jeudi de 9h30 à 18h30</span></div>
-      </div>
-    </div>
-  </div>
+  <?php include("includes/header.php"); ?>
 
+  <!--LOGO + SEARCH BAR + LOGIN / SIGN IN-->
+  <?php include("includes/logo_search_login.php"); ?>
 
-  <!--LOGO / SEARCH BAR / LOGIN-->
-  <div class="container mt-2">
-    <div class="row">
-      <div class="col mt-2">
-        <a href="index.html"><img src="asset/logo.png" alt="Site logo" width="180"></a>
-      </div>
-
-      <div class="col-6 mt-5">
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Ordinateur, Console, Ecran,..."
-            aria-label="Search">
-          <button class="btn btn-outline-danger ml-2" type="submit">Rechercher</button>
-        </form>
-      </div>
-
-      <div class="col mt-5">
-        <button type="button" class="btn btn-outline-primary me-2">Se connecter</button>
-        <button type="button" class="btn btn-outline-success me-2">S'enregistrer</button>
-      </div>
-    </div>
-  </div>
-
-
-  <!--LIST ITEM BAR-->
-
-  <div class="container mt-4">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-      <div class="container-fluid">
-        <a class="navbar-brand pr-5" href="index.html">Accueil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav pl-5">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Ordinateur et tablette
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="pc&tablet.html">PC de bureau</a></li>
-                <li><a class="dropdown-item" href="pc&tablet.html#sectionPcPortable">Ordinateur portable</a></li>
-                <li><a class="dropdown-item" href="pc&tablet.html#sectionTablette">Tablette</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Console
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="console.html#sectionPS5">PS5</a></li>
-                <li><a class="dropdown-item" href="console.html#sectionXbox">XBOX Serie S</a></li>
-                <li><a class="dropdown-item" href="console.html#sectionSwitch">Nintendo Switch</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown ">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Ecran
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="ecran.html#sectionSamsungEcran">Samsung</a></li>
-                <li><a class="dropdown-item" href="ecran.html#sectionLg">LG</a></li>
-                <li><a class="dropdown-item" href="ecran.html#sectionEcranHP">HP</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Jeux
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="jeux.html#sectionGamePS5">Jeux PS5</a></li>
-                <li><a class="dropdown-item" href="jeux.html#sectionGameXbox">Jeux XBOX</a></li>
-                <li><a class="dropdown-item" href="jeux.html#sectionGameSwitch">Jeux Nintendo Switch</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Peripherique
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="peripherique.html#sectionSouris">Souris</a></li>
-                <li><a class="dropdown-item" href="peripherique.html#sectionClavier">Clavier</a></li>
-                <li><a class="dropdown-item" href="peripherique.html#sectionManette">Manette</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Objet connecte
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="objet_connecte.html#sectionMontre">Montre</a></li>
-                <li><a class="dropdown-item" href="objet_connecte.html#sectionEnceinte">Enceinte</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <!--NAV ITEM BAR-->
+  <?php include("includes/nav_item.php"); ?>
 
 
   <!--Jeux PS5-->
@@ -145,7 +36,7 @@
 
       <div class="col">
         <div class="card shadow-sm">
-          <img src="asset/spiderman.jpeg" height="340px" title="spiderman_ps5">
+          <img src="asset/spiderman.jpeg" height="321px" title="spiderman_ps5">
           <div class="mb-1 text-muted text-center">Disponible en stock</div>
           <div class="card-body">
             <h6 class="text-center">Marvel's Spider-Man : Miles Morales (PS5)</h6>
@@ -334,56 +225,11 @@
       </div>
     </div>
   </div>
+</div>
 
 
   <!--FOOTER-->
-  <footer class="bg-dark text-center text-white mt-5 pt-2">
-    <div class="container">
-      <section class="">
-        <form action="">
-          <div class="row d-flex justify-content-center">
-            <div class="col-auto">
-              <p class="pt-2"><strong>Enregistrez vous pour recevoir notre newsletter</strong>
-              </p>
-            </div>
-
-            <div class="col-md-5 col-12">
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example2" class="form-control" />
-                <label class="form-label" for="form5Example2">Adresse email</label>
-              </div>
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-outline-light mb-4">
-                S'abonner
-              </button>
-            </div>
-          </div>
-        </form>
-      </section>
-
-      <section class="mb-4">
-        <h3>Futur Technologie</h3>
-        <p>
-          La société FUTUR TECHNOLOGIE a été fondée en 2020. Spécialisée en PC de bureau, PC portables,
-          mais également en tablettes tactiles et produits hight-tech grand public, nous distribuons une gamme de
-          produits périphériques,
-          accessoires en tous genres, connectiques , produits Multimédia, objets connectés,ecran et plus encore....
-        </p>
-      </section>
-
-      <section class="mb-4">
-        <h4>Service après-vente</h4>
-        <p>
-          Tel : 058-5758-123</br>
-          Fax : 051-5253-545
-        </p>
-      </section>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        Tous droits réservés ©Future Technologie 2020
-      </div>
-    </div>
-  </footer>
+  <?php include("includes/footer.php"); ?>
 
 
 
